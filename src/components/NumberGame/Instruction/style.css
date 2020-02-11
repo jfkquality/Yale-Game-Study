@@ -1,0 +1,10 @@
+
+/* Hide inactive slides */
+div#slideContainer section.slide{ 
+    display:none;
+}
+
+/* Show active slide */
+div#slideContainer section.slide.active{ 
+    display:block;
+}

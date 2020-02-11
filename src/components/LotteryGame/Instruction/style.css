@@ -1,0 +1,67 @@
+
+/* Hide inactive slides */
+div#slideContainer section.slide{ 
+    display:none;
+}
+
+/* Show active slide */
+#lotteryGame div#slideContainer section.slide.active{ 
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.alignCenter {
+    display: flex;
+    align-items: center;
+}
+.alignEnd {
+    align-items: flex-end;
+}
+.justifyCenter {
+    justify-content: center;
+}
+.textCenter {
+    text-align: center;
+}
+#lotteryGame .instruction .stack {
+    flex-wrap: wrap;
+}
+#lotteryGame .instruction .stack > div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.justifyBetween {
+    display: flex;
+    justify-content: space-around;
+}
+#lotteryGame .instruction .slide p {
+    margin-right: 40px;
+}
+#lotteryGame .instruction p.answers {
+    color: #A36264;
+    padding-left: 10px;
+    margin: 0;
+    text-align: center;
+}
+#lotteryGame .instruction .showSelected {
+    border: 4px solid #B1E389;
+    font-size: 3.0em;
+    padding: 10px;
+}
+#lotteryGame .instruction p.pointsSelected {
+    font-size: 3em;
+    padding: 30px;
+}
+#lotteryGame .instruction .slide h1 {
+    margin: auto;
+}
+h1.titleSlide, p.titleSlide {
+    font-size: 2.4em;
+}
+#lotteryGame .instruction .slide .noMargin p {
+    margin: 0 20px;
+}    
+#lotteryGame .instruction p.explain {
+    margin: 0;
+}

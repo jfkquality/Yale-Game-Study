@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    background:#1C1C1C;
+    color:#ffffff;
+}
+
+/* instructions */
+.instruction {
+    width: 70%;
+    padding: 0 20% 0 10%;
+    float: left;
+    text-align: left;
+}
+.instruction h1 {
+    font-size: 2em;
+    /* float: left; */
+    /* margin-right: 2em;
+    margin-top:2em; */
+}
+.instruction p {
+    font-size: 1.4em;
+    /* float: left; */
+}
+#pointTotal {
+    font-size:1.5em;
+    position: relative;
+    left: 2em;
+    top: -0.4em;
+    float: left;
+}
+#pointTotal img {
+    vertical-align: middle;
+    height: 4em;
+    margin-left: 1em;
+}
+#pointNum {
+    font-size:3.5em;
+    position: relative;
+    top: 0.25em;
+}
+#slideContainer {
+    height: calc(100vh - 200px); 
+    overflow: auto;   
+}
+/* buttons */
+.instruction button { 
+    width: 140px;
+    height: 52px;
+    border: none;
+    color: white;
+    /* font-weight: bold; */
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4em;
+    border-radius: 3px;
+}
+.instruction span {
+    /* margin-left: 20px; */
+    font-size: 1.4em;
+    font-weight: bold;
+}
+button.btnGreen {
+    background-color: #9CE37A; /* Green */
+    color: white;
+}
+button.btnPlain {
+  background-color: #272727;
+  margin-right: 10px;
+  color: white;
+  /* text-decoration: underline; */
+}
+button.btnClear {
+  background-color: transparent;
+  border: white solid 2px;
+  color: white;
+}
+.logout.btnClear {
+    float: right;
+    margin-right: 20px;
+
+}
+.instructionControls {
+    height: 53px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.instructionControls #right {
+    float: right;
+}
+.boxHome#textTwistMenu {
+}
